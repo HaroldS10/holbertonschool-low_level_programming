@@ -5,25 +5,15 @@
  **/
 int main(void)
 {
-int a, b, c;
-
-for (a = 0; a < 10; a++)
+int i;
+for (i = 0; i < 10; i++)
 {
-for (b = a; b < 10; b++)
+putchar(i + '0');
+ if (i < 9)
 {
-for (c = b; c < 10; c++)
-{
-putchar(a + '0');
 putchar(',');
 putchar(' ');
-putchar(b + '0');
-putchar(',');
-putchar(' ');
-putchar(c + '0');
-putchar('\n');
 }
 }
-}
-
 return (0);
 }
