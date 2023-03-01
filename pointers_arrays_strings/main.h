@@ -1,3 +1,3 @@
 int main(void);
 int _puchar (char c);
-int _puts(char *str);
+void _puts(char *str);
