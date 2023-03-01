@@ -12,4 +12,5 @@ for (; c >= 0; c = c -1)
 {
 _putchar (*(s + c));
 }
-_putchar ('\n')
+ _putchar ('\n');
+}
