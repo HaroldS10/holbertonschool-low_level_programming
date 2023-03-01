@@ -1,4 +1,4 @@
-y#include "main.h"
+#include "main.h"
 /**
  */
 void _puts(char *str)
