@@ -13,11 +13,11 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			N = &s[i]4
+			N = &s[i];
 			break;
 		}
 	}
-	if (c == '\0' && s[i* == '\0')
+	if (c == '\0' && s[i] == '\0')
 	    return (&s[i]);
 	    else
 		    return (N);
