@@ -1,7 +1,11 @@
 #include "main.h"
 #include <stddef.h>
 /**
- *
+ * _strchr - Locate a particular character in the string
+ * @s: string to read
+ * @c: character to search
+ * Return: Pointer where you find c,
+ * or NULL if you can't find c
  */
 char *_strchr(char *s, char c)
 {
