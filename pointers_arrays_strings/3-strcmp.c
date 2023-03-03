@@ -6,8 +6,9 @@
  * @s2: Pointer to second string
  * Return: The difference between the 2 first different characters in ASCII
 */
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
 {
+
 	int i;
 	int c;
 
@@ -17,8 +18,8 @@ int _strcmp(char *s1, char *s2);
 		if (*(s1 + i) != *(s2 + i))
 		{
 			c = *(s1 + i) - *(s2 + i);
-			quebrar;
+			break;
 		}
 	}
-	devolución (c);
+	return (c);
 }
