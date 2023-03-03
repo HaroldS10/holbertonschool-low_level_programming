@@ -3,7 +3,8 @@
  * _strspn - gets the length of a substring
  * @s: Pointer to string for search
  * @accept: Bytes to search
- * Return: 
+ * Return: The number of bytes in the initial
+ * segment of s relative to the bytes of accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
