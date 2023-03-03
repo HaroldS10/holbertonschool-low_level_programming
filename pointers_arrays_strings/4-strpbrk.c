@@ -12,6 +12,8 @@ char *_strpbrk(char *s, char *accept)
 	int i;
 	int j;
 	char *re
+
+
 	re = NULL
 		for (i = 0; s[i] != '\0'; i ++)
 		{
