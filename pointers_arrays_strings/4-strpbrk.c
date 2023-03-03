@@ -14,7 +14,7 @@ char *_strpbrk(char *s, char *accept)
 	char *re
 
 
-	re = NULL
+		re = NULL;
 		for (i = 0; s[i] != '\0'; i ++)
 		{
 			for (j = 0; accept[j] != '\0'; j++)
@@ -28,5 +28,5 @@ char *_strpbrk(char *s, char *accept)
 			if (re != NULL)
 				break;
 		}
-	return (re);
+		return (re);
 }
