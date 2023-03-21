@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * str_concat - concatenates two strings.
- * @s1: First string (Beginning)
- * @s2: Second string (Ending)
+ * @st1: First string (Beginning)
+ * @st2: Second string (Ending)
  * Return: Pointer to concatenated strings
  */
 char *str_concat(char *st1, char *st2)
